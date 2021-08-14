@@ -1,0 +1,220 @@
+*{
+    padding: 0%;
+    margin: 0%;
+// font-family: 'Dancing Script', cursive;
+// font-family: 'MonteCarlo', cursive;
+// font-family: 'Righteous', cursive;
+font-family: 'STIX Two Text', serif;
+}
+
+.dashed1{
+    width: 30%;
+    text-align: center;
+    border:5px dashed green ;
+    border-bottom: none;
+    margin: auto;
+    background-color: transparent;
+}
+
+body{
+    
+    header{
+
+
+        nav{
+
+            .container-fluid{
+                font-size: 20px;
+            }
+            .navbar-brand{
+                font-size: x-large;
+                transition: .1s;
+                &:hover{
+                    transform: scale(1.03);
+                }
+            }
+
+            .collapse{
+                
+                ul{
+                    li{
+                        a{
+                            background-color: rgba(0,0,0,0.02);
+                            border-radius: 10px;
+                            &:hover{
+                                background-color: rgba(0,0,0,0.2);
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .banner{
+
+            .carousel{
+                
+                
+                .carousel-indicators{
+                    button{
+                        background-color: #198754;
+                    }
+                }
+
+                .carousel-inner{
+
+                    .carousel-item{
+                        img{
+                            height: 80vh;
+                            
+                        }
+
+                        .carousel-caption{
+                            padding: 0 8px;
+                            background-color: rgba(0,0,0,0.2);
+                            border-radius:  0 20px 20px 20px;
+                            margin-bottom: 30px;
+                            &:hover{
+                                background-color: rgba(#198754,0.8);
+                            }
+
+                            h5{
+                                padding-top: 5px;
+                                
+                            }
+                            
+                            
+                        }
+
+                    }
+
+                }
+                
+
+            }
+
+        }
+    }
+
+    main{
+        #about{
+            .container{
+                .title{
+                    h1{
+                        font-family: 'Dancing Script', cursive;
+
+                    }
+                    
+                }
+
+                .body{
+
+                    h1{
+                        font-family: 'Dancing Script', cursive;
+                    }
+
+                    .row{
+                        .right{
+                            
+                            .right-image{ 
+                                margin-top:20px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                
+                                img{
+                                    width: 80%;
+                                    border: 5px solid #198754;
+                                    
+                                }
+                            }
+                        }
+                    } 
+
+
+                }
+            }
+            
+        }
+
+        #service{
+            .container{
+                .services{
+                    .card1{
+                        .card-body{
+                            margin: 2%;
+                            border: 2px solid #198754;
+                        }
+                    }
+                }
+
+                .works{
+                    background-color: #198754;
+                    .card1b{
+                        background-color: white;
+                        padding: 0;
+                        border: 2px solid rgb(0, 0, 0);
+                        margin-bottom: 10px;
+                        &:hover{
+                            box-shadow: 0 0 10px 1px black;
+                        }
+                        p{
+                            font-size: smaller
+                        }
+
+                        
+                    }
+
+                }
+            }
+        }
+
+        #team{
+            
+            .card1{
+                margin-bottom: 10px;
+                
+               
+                
+                .card1b{
+                    
+                    padding: 5px;
+                    box-shadow: 0 0 3px 1px green;
+                    &:hover{
+                        box-shadow: 0 0 10px 1px black;}
+                    img{
+                        border: 2px solid green;
+                        padding: 3px;
+                        border-radius: 50%;
+                        
+                    }
+                    p{
+                        font-size: smaller
+                    }
+                }
+
+                
+            }
+
+        }
+        
+    }
+
+    // footer{
+    //     width: 99%
+    // }
+
+
+}
+
+
+
+
+
+
+
+
+@import'./tab-style';
+@import'./pc-style';

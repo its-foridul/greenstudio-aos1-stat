@@ -1,0 +1,225 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'STIX Two Text', serif;
+}
+
+.dashed1 {
+  width: 30%;
+  text-align: center;
+  border: 5px dashed green;
+  border-bottom: none;
+  margin: auto;
+  background-color: transparent;
+}
+
+body header nav .container-fluid {
+  font-size: 20px;
+}
+
+body header nav .navbar-brand {
+  font-size: x-large;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+body header nav .navbar-brand:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+body header nav .collapse ul li a {
+  background-color: rgba(0, 0, 0, 0.02);
+  border-radius: 10px;
+}
+
+body header nav .collapse ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+body header .banner .carousel .carousel-indicators button {
+  background-color: #198754;
+}
+
+body header .banner .carousel .carousel-inner .carousel-item img {
+  height: 80vh;
+}
+
+body header .banner .carousel .carousel-inner .carousel-item .carousel-caption {
+  padding: 0 8px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0 20px 20px 20px;
+  margin-bottom: 30px;
+}
+
+body header .banner .carousel .carousel-inner .carousel-item .carousel-caption:hover {
+  background-color: rgba(25, 135, 84, 0.8);
+}
+
+body header .banner .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+  padding-top: 5px;
+}
+
+body main #about .container .title h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+body main #about .container .body h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+body main #about .container .body .row .right .right-image {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main #about .container .body .row .right .right-image img {
+  width: 80%;
+  border: 5px solid #198754;
+}
+
+body main #service .container .services .card1 .card-body {
+  margin: 2%;
+  border: 2px solid #198754;
+}
+
+body main #service .container .works {
+  background-color: #198754;
+}
+
+body main #service .container .works .card1b {
+  background-color: white;
+  padding: 0;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+body main #service .container .works .card1b:hover {
+  -webkit-box-shadow: 0 0 10px 1px black;
+          box-shadow: 0 0 10px 1px black;
+}
+
+body main #service .container .works .card1b p {
+  font-size: smaller;
+}
+
+body main #team .card1 {
+  margin-bottom: 10px;
+}
+
+body main #team .card1 .card1b {
+  padding: 5px;
+  -webkit-box-shadow: 0 0 3px 1px green;
+          box-shadow: 0 0 3px 1px green;
+}
+
+body main #team .card1 .card1b:hover {
+  -webkit-box-shadow: 0 0 10px 1px black;
+          box-shadow: 0 0 10px 1px black;
+}
+
+body main #team .card1 .card1b img {
+  border: 2px solid green;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+body main #team .card1 .card1b p {
+  font-size: smaller;
+}
+
+@media screen and (min-width: 620px) {
+  /* For desktop: */
+  .col-t-1 {
+    width: 8.33%;
+  }
+  .col-t-2 {
+    width: 16.66%;
+  }
+  .col-t-3 {
+    width: 25%;
+  }
+  .col-t-4 {
+    width: 33.33%;
+  }
+  .col-t-5 {
+    width: 41.66%;
+  }
+  .col-t-6 {
+    width: 50%;
+  }
+  .col-t-7 {
+    width: 58.33%;
+  }
+  .col-t-8 {
+    width: 66.66%;
+  }
+  .col-t-9 {
+    width: 75%;
+  }
+  .col-t-10 {
+    width: 83.33%;
+  }
+  .col-t-11 {
+    width: 91.66%;
+  }
+  .col-t-12 {
+    width: 100%;
+  }
+  [class*="col-"] {
+    float: left;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  [class*="col-"] {
+    float: left;
+  }
+}
+/*# sourceMappingURL=style.css.map */
